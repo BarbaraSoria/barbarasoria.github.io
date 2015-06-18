@@ -177,7 +177,6 @@ header {
     width: 100%;
     min-height: auto;
     text-align: center;
-    color: #4CC9C9;
     background-color: #F3F3F3;
 }
 
@@ -206,7 +205,8 @@ header .header-content .header-content-inner p {
     margin-bottom: 50px;
     font-size: 16px;
     font-weight: 300;
-    color: #ee4b28;
+    color: #4CC9C9;
+    font-weight: bold;
 }
 
 @media(min-width:768px) {
@@ -215,8 +215,6 @@ header .header-content .header-content-inner p {
     }
 
     header .header-content {
-        position: absolute;
-        padding: 0 50px;
     }
 
     header .header-content .header-content-inner {
@@ -379,9 +377,9 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn-primary {
-    border-color: #f05f40;
-    color: #fff;
-    background-color: #f05f40;
+    border-color: #FCD4D4;
+    color: #4CC9C9;
+    background-color: #FCD4D4;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
