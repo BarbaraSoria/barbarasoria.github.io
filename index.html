@@ -35,6 +35,17 @@
 </head>
 
 <body id="page-top">
+    <!-- Facebook like include -->
+    <div id="fb-root"></div>
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
 
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
@@ -47,6 +58,9 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">Barbi's Cakeland</a>
+                <a href="https://www.facebook.com/barbiscakeland"><img src="img/FB-f-Logo__blue_29.png" /></a>
+                <!-- Facebook like button... depends on "Facebook include" above-->
+                <div class="fb-like" data-href="https://www.facebook.com/barbiscakeland" data-width="29" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
